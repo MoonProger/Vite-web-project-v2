@@ -1,0 +1,9 @@
+.meal-card .card-media {
+  height: 200px;
+  object-fit: cover;
+}
+
+.meal-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+

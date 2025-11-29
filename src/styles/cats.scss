@@ -1,0 +1,8 @@
+.cat-grid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.cat-grid .card-media {
+  height: 220px;
+}
+
