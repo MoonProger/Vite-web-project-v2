@@ -44,7 +44,6 @@ const NewsPage = () => {
 
   useEffect(() => {
     loadNews(true);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleSubmit = (event: FormEvent) => {
